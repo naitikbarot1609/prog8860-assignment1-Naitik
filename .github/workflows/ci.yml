@@ -1,7 +1,10 @@
 name: Naitik
 
 on:
-   [push] 
+   push:
+    branches:
+     - nodejs
+ 
   # pull_request:
   #   branches:
   #     - main
